@@ -1,0 +1,44 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+    background-color: lightpink;
+}
+.header{
+    background-color: #8675a9;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.header figure{
+    margin: 0px 0px 0px 20px;
+    width: 120px;
+    height: 50px;
+
+}
+.header figure img{
+    width: inherit;
+    height: inherit;
+}
+.menu{
+    height: inherit;
+}
+ul{
+    list-style: none;
+    padding:0px;
+    margin: 0px;
+    display: flex;
+    height: inherit;
+}
+li{
+    height: inherit;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    margin: 0px 20px;
+    padding:0px 10px;
+  }
