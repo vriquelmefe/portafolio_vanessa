@@ -6,7 +6,7 @@ body{
     margin: 0px;
   }
   .header{
-    background-color: #8675a9;
+    background-color: #d396e2;
     display: flex;
     justify-content: space-between;
     height: 70px;
@@ -36,7 +36,7 @@ body{
     height: inherit;
   }
   h1, h2, h3, h4, h5, h6{
-    font-family: 'Fjalla One', sans-serif;
+    font-family: cursive;
   }
   h1{
     line-height: 150%;
@@ -59,7 +59,7 @@ body{
   }
   .main{
     height: 300px;
-    background-color: #8675a9;
+    background-color: #895094;
     /* background-image: url(../img/img_main.jpg); */
     /* background-size: 500px 300px; */
     /* background-repeat: no-repeat; */
@@ -78,7 +78,7 @@ body{
     height: inherit;
   }
   .main span{
-    color: #005086;
+    color: #d5a632;
   }
   h2{
     margin: 0px;
@@ -100,7 +100,7 @@ body{
     /* box-shadow: derecha abajo difuminado color; */
     padding: 30px;
     margin: 0px 0px 30px 0px;
-    background-color: white;
+    background-color: rgb(244, 232, 248);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -147,7 +147,7 @@ body{
     border-radius: 10px;
     overflow: hidden;
     flex-shrink: 0;
-    background-color: #f4fbff;
+    background-color: #eed4f7;
     
   }
   .experience-container_image{
@@ -165,7 +165,7 @@ body{
   .experience-down{
     margin: 20px 40px;
     margin-top: -40px;
-    background-color: white;
+    background-color: rgb(238, 204, 235);
     position: relative;
     padding: 20px;
     text-align: center;  
@@ -192,7 +192,7 @@ body{
   }
   .contact{
     display:flex;
-    background-color: rgba(236, 175, 61, 0.795);
+    background-color: rgba(137, 43, 243, 0.795);
     padding: 30px 30px 30px 0px;
     justify-content: space-between;
     align-items: center;
