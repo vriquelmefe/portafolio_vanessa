@@ -1,32 +1,174 @@
+<!-- la etique mas importante a nivel de dom ya que me representa el tipo de documento para que el navegar interprete que es html -->
 <!DOCTYPE html>
-<html lang="en">
+<!-- Es el padre de todas mis etiquetas atributo lang representa el lenguaje  -->
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/swampeye-facebook-like-button-favicon-earth-png-clip-art.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Vanessa Riquelme</title>
+  <link rel="shortcut icon" href="img/images.jfif" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <!-- en linea
+  tag
+  externos -->
+  
 </head>
 <body>
-    <header class="header">
-        <div class="wrapper">
-          <figure>
-           <img src="img/logo.png" alt="Logo de git" />
-          </figure>
-          <nav class="menu">
-           <ul>
-              <li><a class="link" href="#proyecto">Proyectos</a></li>
-              <li><a class="link" href="#experiencia">Experiencia</a></li>
-              <li><a class="link" href="#contactame" >Contactame</a></li>
-            </ul>
-          </nav>
-        </div>
-    </header>
-    
-    
-    <section>
-        
-    </section>
+  <header class="header">
+    <div class="wrapper">
+      <figure>
+       <img src="img/logo.png" alt="Logo de git" />
+      </figure>
+      <nav class="menu">
+       <ul>
+          <li><a class="link" href="#proyecto">Proyectos</a></li>
+          <li><a class="link" href="#experiencia">Experiencia</a></li>
+          <li><a class="link" href="#contactame" >Contactame</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="main">
+    <div class="wrapper">
+    <h1>Hola! soy <span>Vanessa Riquelme</span> <br>
+      Tecnico <span>en Enfermería</span> con <br> 
+      proyecto de nuevo <span>rumbo profesional</span>
+    </h1>
+      <figure>
+        <img src="img/mia.jpg" alt="Presentacion fisica mia" width="500">
+      </figure>
+    </div>
+  </section>
+
+  <section id="proyecto" class="projects">
+    <div class="wrapper">
+    <h2>Proyectos</h2>
+    <article class="project">
+    <div class="project-left">
+      <h3 class="project-title">Me carrera</h3>
+      <h4 class="project-language">Flutter</h4>
+      <p class="project-date"><strong>Fecha: 20/01/2020</strong></p>
+      <p class="project-link"><a href="#">Proyecto de seguimiento</a></p>
+      <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia iste delectus soluta blanditiis quidem cumque, corrupti culpa molestiae aperiam assumenda, consequatur veniam perferendis inventore! Dolorum sapiente ut laudantium deserunt molestiae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat natus fugiat nulla recusandae repellat porro placeat rerum vitae modi officia perspiciatis eum pariatur similique incidunt, optio minima consequatur ullam?</p>
+    </div>
+    <figure class="project-container_image">
+      <img class="project-image" src="img/proyectos.png" alt="Salud">
+    </figure>
+  </article>
+
+  <article class="project">
+    <div class="project-left">
+      <h3 class="project-title">Hobbies</h3>
+      <h4 class="project-language">Flutter</h4>
+      <p class="project-date"><strong>Fecha: 20/01/2020</strong></p>
+      <p class="project-link"><a href="#">Proyecto de seguimiento</a></p>
+      <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia iste delectus soluta blanditiis quidem cumque, corrupti culpa molestiae aperiam assumenda, consequatur veniam perferendis inventore! Dolorum sapiente ut laudantium deserunt molestiae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat natus fugiat nulla recusandae repellat porro placeat rerum vitae modi officia perspiciatis eum pariatur similique incidunt, optio minima consequatur ullam?</p>
+    </div>
+    <figure class="project-container_image">
+      <img class="project-image" src="img/proyectos.png" width="500" alt="Gamers">
+    </figure>
+  </article>
+
+  <article class="project">
+    <div class="project-left">
+      <h3 class="project-title">Proyecto a futuro</h3>
+      <h4 class="project-language">Flutter</h4>
+      <p class="project-date"><strong>Fecha: 20/01/2020</strong></p>
+      <p class="project-link"><a href="#">Proyecto de seguimiento</a></p>
+      <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia iste delectus soluta blanditiis quidem cumque, corrupti culpa molestiae aperiam assumenda, consequatur veniam perferendis inventore! Dolorum sapiente ut laudantium deserunt molestiae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus quaerat natus fugiat nulla recusandae repellat porro placeat rerum vitae modi officia perspiciatis eum pariatur similique incidunt, optio minima consequatur ullam?</p>
+    </div>
+    <figure class="project-container_image">
+      <img class="project-image" src="img/proyectos.png" width="500" alt="Vida">
+    </figure>
+  </article>
+</div>
+  </section>
+
+
+<div class="wrapper">
+  <h2 class="experience-mainTitle">Experiencia</h2>
+</div>
+
+
+
+  <section id="experiencia" class="experiences">
+    <div class="wrapper">
+    <article class="experience">
+      <figure class="experience-container_image">
+        <img class="experience-image" src="img/experiencia.jpg" alt="foto salud">
+      </figure>
+      <div class="experience-down">
+        <h3 class="experience-title">Area de la Salud</h3>
+        <p class="experience-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium sint excepturi quam et impedit vel aperiam mollitia in cumque veritatis. Nesciunt, hic iste rem quis nihil beatae architecto in illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam dolore expedita natus repellat ut, excepturi ipsa ipsum est reprehenderit amet, nobis iure adipisci iste tempore autem impedit! Nam, labore?</p>
+        <button>Enviar</button>
+      </div>
+    </article>
+
+    <article class="experience">
+      <figure class="experience-container_image">
+        <img class="experience-image" src="img/experiencia.jpg" alt="imagen telecomunicaciones">
+      </figure>
+      <div class="experience-down">
+        <h3 class="experience-title">Telecomunicaciones</h3>
+        <p class="experience-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium sint excepturi quam et impedit vel aperiam mollitia in cumque veritatis. Nesciunt, hic iste rem quis nihil beatae architecto in illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam dolore expedita natus repellat ut, excepturi ipsa ipsum est reprehenderit amet, nobis iure adipisci iste tempore autem impedit! Nam, labore?</p>
+        <button>Enviar</button>
+      </div>
+    </article>
+
+    <article class="experience">
+      <figure class="experience-container_image">
+        <img class="experience-image" src="img/experiencia.jpg" alt="imagen tecnologia">
+      </figure>
+      <div class="experience-down">
+        <h3 class="experience-title">Tecnolog&iacutea</h3>
+        <p class="experience-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium sint excepturi quam et impedit vel aperiam mollitia in cumque veritatis. Nesciunt, hic iste rem quis nihil beatae architecto in illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam dolore expedita natus repellat ut, excepturi ipsa ipsum est reprehenderit amet, nobis iure adipisci iste tempore autem impedit! Nam, labore?</p>
+        <button>Enviar</button>
+      </div>
+    </article>
+
+    <article class="experience">
+      <figure class="experience-container_image">
+        <img class="experience-image" src="img/experiencia.jpg" alt="imagen  gastronomia">
+      </figure>
+      <div class="experience-down">
+        <h3 class="experience-title">Gastronomia</h3>
+        <p class="experience-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium sint excepturi quam et impedit vel aperiam mollitia in cumque veritatis. Nesciunt, hic iste rem quis nihil beatae architecto in illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam dolore expedita natus repellat ut, excepturi ipsa ipsum est reprehenderit amet, nobis iure adipisci iste tempore autem impedit! Nam, labore?</p>
+        <button>Enviar</button>
+      </div>
+    </article>
+  </div>
+  </section>
+
+  <section id="contactame" class="contact">
+    <div class="wrapper">
+    <form action="" class="contact-form">
+      <h2>¿Creamos algo?</h2>
+      <input type="text" placeholder="Dejame tu email">
+      <button>Enviar</button>
+    </form>
+
+   <div class="redes">
+    <a href="#" class="redes-link github"></a>
+    <a href="#" class="redes-link facebook"></a>
+    <a href="#" class="redes-link instagram"></a>
+    <a href="#" class="redes-link twitter"></a>
+   </div>
+  </div>
+  
+  </section>
+
+  <footer class="footer">
+    <div class="wrapper">
+    <div class="footer-details">
+      <p>Curso de desarrollo web</p>
+      <img src="img/dota2.png" alt="">
+    </div>
+    <p>Diseñado por Vanessa Riquelme</p>
+  </div>
+  </footer>
+
+
 </body>
 </html>
