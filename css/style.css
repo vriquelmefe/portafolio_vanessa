@@ -70,8 +70,8 @@ body{
   }
   .main figure{
     margin: 0px;
-    width: 500px;
-    height: inherit;
+    width: 250px;
+    height: 300px;
   }
   .main img{
     width: inherit;
@@ -131,7 +131,7 @@ body{
     width: 500px;
   }
   .project-image{
-    width: 500px;
+    width: 350px;
   }
   
   .experiences{
@@ -147,7 +147,7 @@ body{
     border-radius: 10px;
     overflow: hidden;
     flex-shrink: 0;
-    background-color: #eed4f7;
+    background-color: #f3c798;
     
   }
   .experience-container_image{
@@ -158,14 +158,14 @@ body{
   }
   .experience-image{
     /* width: auto; */
-    width: inherit;
-    height: inherit;
+    width: 480px;
+    height: 320px;
     object-fit: cover;
   }
   .experience-down{
     margin: 20px 40px;
     margin-top: -40px;
-    background-color: rgb(238, 204, 235);
+    background-color: rgba(250, 235, 203, 0.857);
     position: relative;
     padding: 20px;
     text-align: center;  
@@ -192,7 +192,7 @@ body{
   }
   .contact{
     display:flex;
-    background-color: rgba(137, 43, 243, 0.795);
+    background-color: rgba(123, 228, 252, 0.795);
     padding: 30px 30px 30px 0px;
     justify-content: space-between;
     align-items: center;
@@ -263,7 +263,7 @@ body{
   
   
   .footer{
-    background-color: #8675a9;
+    background-color: #7bbcf8;
     display: flex;
     justify-content: space-between;
     align-items: center;
