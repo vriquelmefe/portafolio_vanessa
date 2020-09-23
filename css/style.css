@@ -12,6 +12,7 @@ body{
   justify-content: space-between;
   height: 70px;
   align-items: center;
+  flex-wrap: wrap;
 }
 .header figure{
   margin: 0px 0px 0px 20px;
@@ -68,6 +69,7 @@ h1{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .main figure{
   margin: 0px;
@@ -99,16 +101,17 @@ h2{
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
   /* box-shadow: derecha abajo difuminado color; */
-  padding: 30px;
+  padding: 4%;
   margin: 0px 0px 30px 0px;
   background-color: rgb(244, 232, 248);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 
 }
 .project-left{
-  width: 500px;
+  width: 48%;
 }
 .project-title{
   margin: 0px;
@@ -128,11 +131,12 @@ h2{
   margin-top: 20px;
   font-size: 20px;
 }
-.project-containerRight{
-  width: 500px;
+.project-container_image{
+  width: 48%;
+  margin: 0;
 }
 .project-image{
-  width: 350px;
+  width: 100%;
 }
 
 .experiences{
@@ -198,6 +202,7 @@ h2{
   padding: 30px 30px 30px 0px;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .contact-form{
@@ -270,6 +275,7 @@ h2{
   justify-content: space-between;
   align-items: center;
   padding:10px 60px;
+  flex-wrap: wrap;
 }
 .footer-details{
   display: flex;
@@ -281,7 +287,8 @@ h2{
   margin-left: 15px;
 }
 .wrapper{
-  width: 1000px;
+  max-width: 1000px;
+  flex: 1;
   /* border:1px solid red; */
   margin:0px auto;
   display:inherit;
@@ -290,5 +297,71 @@ h2{
   height: inherit;
   flex-wrap: inherit;
 }
+ @media screen and (max-width:1024px){
+   
+ }
+ @media screen and (max-width:767px){
+  .header{
+    height: auto;
+    display: block;
+  }
+  ul{
+    display: block;
+  }
+  .link{
+    justify-content: center;
+    margin: 0px 0px;
+    padding: 10px 0px;
+  }
+  .link:hover{
+    background-color: #d67ced ;
+  }
+  .header figure{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px;
+  }
+  .project{
+    display: block;
+    font-size: 16px;
+  }
+  .project-left{
+    width: auto;
+  }
+  .project-container_image{
+    width: 100%;
+  }
+  .project-title{
+    font-size: 1.4em;
+  }
+  .project-description{
+    font-size: 1.1em;
+  }
+  .project-language, .project-date, .project-link, .project-description{
+    margin: 1em 0;
+  }
+  .projects h2{
+    font-size: 1.5em;
+    padding: 1em 0;
+  }
+ }
+ @media screen and (max-width:480px){
+    .projects{
+     font-size: 0.8em;
+     padding: 0 1.2em 0.8em 1.2em;
+   }
+   .project{
+    font-size: 14px;
+    box-shadow: 0px 0px 6px black;
+  }
+  .link{
+    padding: 0.5em 0;
+  }
+ }
+ @media screen and (max-width:320px){
+   
+ }
 
  
