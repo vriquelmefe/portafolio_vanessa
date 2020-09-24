@@ -326,6 +326,7 @@ h2{
   .project{
     display: block;
     font-size: 16px;
+    box-shadow: 0px 0px 8px black;
   }
   .project-left{
     width: auto;
@@ -361,7 +362,13 @@ h2{
   }
  }
  @media screen and (max-width:320px){
-   
+  .project{
+    box-shadow: 0px 0px 4px black;
+    margin-bottom: 1.5em;
+  }
+  .link{
+    padding: 0.4em 0;
+  }
  }
 
  
