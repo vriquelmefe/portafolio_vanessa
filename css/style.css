@@ -85,15 +85,15 @@ h1{
 }
 h2{
   margin: 0px;
-  padding:30px 0px;
+  padding:1.5rem 0px;
   text-transform: uppercase;
   color:#005086;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.6rem;
 }
 .projects{
-  padding: 0px 30px 10px 30px;
+  padding: 0px 1.5rem 10px 1.5rem;
   background-color: #744bc525;
 }
 .project{
@@ -101,8 +101,8 @@ h2{
   border-radius: 10px;
   box-shadow: 0px 0px 10px black;
   /* box-shadow: derecha abajo difuminado color; */
-  padding: 4%;
-  margin: 0px 0px 30px 0px;
+  padding: 2%;
+  margin: 0px 0px 1.8rem 0px;
   background-color: rgb(244, 232, 248);
   display: flex;
   justify-content: space-between;
@@ -114,22 +114,11 @@ h2{
   width: 48%;
 }
 .project-title{
-  margin: 0px;
-  font-size: 25px;
-  margin-bottom: 10px;
+  margin: 0 0 0.7rem 0;
+  font-size: 1.3rem;
 }
-.project-language{
-  margin-top: 20px;
-}
-.project-date{
-  margin-top: 20px;
-}
-.project-link{
-  margin-top: 20px;
-}
-.project-description{
-  margin-top: 20px;
-  font-size: 20px;
+.project-language, .project-date, .project-link, .project-description{
+  margin-top: 0.7rem 0;
 }
 .project-container_image{
   width: 48%;
@@ -215,7 +204,7 @@ h2{
   border-style: solid;
   padding: 5px 5px 5px 35px;
   border-radius: 5px;
-  background-image: url(../img/envelope.svg);
+  background-image: url(../img/images.jfif);
   background-repeat: no-repeat;
   background-size: 25px 25px;
   background-position-y: center;
@@ -325,37 +314,41 @@ h2{
   }
   .project{
     display: block;
-    font-size: 16px;
+    padding: 2%;
+    /* font-size: 16px; */
     box-shadow: 0px 0px 8px black;
   }
   .project-left{
     width: auto;
   }
   .project-container_image{
-    width: 100%;
-  }
-  .project-title{
-    font-size: 1.4em;
-  }
-  .project-description{
-    font-size: 1.1em;
+    width: auto;
   }
   .project-language, .project-date, .project-link, .project-description{
-    margin: 1em 0;
+    margin: 0.6rem 0;
   }
   .projects h2{
-    font-size: 1.5em;
-    padding: 1em 0;
+    font-size: 1.5rem;
+    padding: 1.3rem 0;
   }
  }
  @media screen and (max-width:480px){
-    .projects{
-     font-size: 0.8em;
-     padding: 0 1.2em 0.8em 1.2em;
-   }
-   .project{
-    font-size: 14px;
-    box-shadow: 0px 0px 6px black;
+  .projects{
+    padding: 0px 1.2rem 6px 1.2rem;
+  }
+  .project{
+  box-shadow: 0px 0px 6px black;
+  }
+  .projects h2{
+    padding: 1.1rem 0;
+    font-size: 1.4rem;
+  }
+  .project-title{
+    font-size: 1.2rem;
+  }
+  .project-language, .project-date, .project-link, .project-description{
+    margin: 0.6rem 0;
+    font-size: 1rem;
   }
   .link{
     padding: 0.5em 0;
@@ -364,10 +357,25 @@ h2{
  @media screen and (max-width:320px){
   .project{
     box-shadow: 0px 0px 4px black;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.9rem;
+    padding: 4%;
   }
   .link{
     padding: 0.4em 0;
+  }
+  .projects{
+    padding: 0px 0.9rem 6px 0.9rem;
+  }
+  .projects h2{
+    padding: 1.1rem 0;
+    font-size: 1.3rem;
+  }
+  .project-title{
+    font-size: 1.1rem;
+  }
+  .project-language, .project-date, .project-link, .project-description{
+    margin: 0.6rem 0;
+    font-size: 0.9rem;
   }
  }
 
