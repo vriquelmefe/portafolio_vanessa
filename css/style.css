@@ -73,7 +73,7 @@ h1{
 }
 .main figure{
   margin: 0px;
-  width: 250px;
+  /* width: 250px; */
   height: 300px;
 }
 .main img{
@@ -129,15 +129,16 @@ h2{
 }
 
 .experiences{
-  padding:0px 30px;
+  padding:0px 1.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 .experience{
   /* border:1px solid blue; */
-  margin: 0px 20px 40px 0px;
-  width: 480px;
+  margin: 0px 2% 3rem 0px;
+  /* width: 480px; */
+  width: 48%;
   border-radius: 10px;
   overflow: hidden;
   flex-shrink: 0;
@@ -152,13 +153,13 @@ h2{
 }
 .experience-image{
   /* width: auto; */
-  width: 480px;
-  height: 320px;
+  width: inherit;
+  height: inherit;
   object-fit: cover;
 }
 .experience-down{
-  margin: 20px 40px;
-  margin-top: -40px;
+  margin: 0px 1.8rem 1.3rem 1.8rem;
+  margin-top: -2rem;
   background-color: rgba(250, 235, 203, 0.857);
   position: relative;
   padding: 20px;
@@ -179,10 +180,10 @@ h2{
   color: #005086;
 }
 .experience-mainTitle{
-  
   /*margin-left: 30px; */
-  padding: 30px 0 30px 18px;
   margin: 0px;
+  padding: 1.5rem 0 1.5rem 1.5rem;
+  
   
 }
 .contact{
@@ -286,10 +287,33 @@ h2{
   height: inherit;
   flex-wrap: inherit;
 }
- @media screen and (max-width:1024px){
-   
- }
- @media screen and (max-width:767px){
+@media screen and (max-width:1024px){
+  .main{
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 3rem 2rem;
+  }
+  .main figure{
+
+  }
+  .main figure img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .experience-mainTitle{
+    font-size: 1.5rem;
+    padding: 1.3rem 0 1.3rem 0.9rem;
+  }
+  h1{
+    z-index: 5;
+  }
+  
+} 
+@media screen and (max-width:767px){
   .header{
     height: auto;
     display: block;
@@ -331,13 +355,20 @@ h2{
     font-size: 1.5rem;
     padding: 1.3rem 0;
   }
- }
- @media screen and (max-width:480px){
+  .experiences{
+    display: block;
+  }
+  .experience{
+    width: 100%;
+  }
+}
+@media screen and (max-width:480px){
   .projects{
     padding: 0px 1.2rem 6px 1.2rem;
   }
   .project{
   box-shadow: 0px 0px 6px black;
+  padding: 3%;
   }
   .projects h2{
     padding: 1.1rem 0;
@@ -353,8 +384,16 @@ h2{
   .link{
     padding: 0.5em 0;
   }
- }
- @media screen and (max-width:320px){
+  .experiences{
+    padding: 0px 1.2rem;
+  }
+  .experience-down{
+    padding: 1rem;
+    margin: 0 1.5rem 1.3rem 1.5rem;
+    margin-top: -1.5rem;
+  }
+}
+@media screen and (max-width:320px){
   .project{
     box-shadow: 0px 0px 4px black;
     margin-bottom: 0.9rem;
@@ -377,6 +416,21 @@ h2{
     margin: 0.6rem 0;
     font-size: 0.9rem;
   }
- }
+  .experiences{
+    padding: 0px 0.9rem;
+  }
+  .experience-down{
+    padding: 0.8rem;
+    margin: 0 1rem 1.3rem 1rem;
+    margin-top: -1.5rem;
+  }
+  .experience-title{
+    font-size: 1.1rem;
+  }
+  .experience-description{
+    font-size: 0.9rem;
+  }
+}
+
 
  
