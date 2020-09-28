@@ -182,14 +182,14 @@ h2{
 .experience-mainTitle{
   /*margin-left: 30px; */
   margin: 0px;
-  padding: 1.5rem 0 1.5rem 1.5rem;
+  padding: 1.5rem 0 1.5rem 0rem;
   
   
 }
 .contact{
   display:flex;
-  background-color: rgba(123, 228, 252, 0.795);
-  padding: 30px 30px 30px 0px;
+  background-color: rgba(138, 79, 111, 0.795);
+  padding: 1.7rem 2.5rem 1.7rem 2.5rem;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
@@ -197,7 +197,7 @@ h2{
 
 .contact-form{
   /* border: 1px solid blue; */
-  margin-left: 30px;
+  /* margin-left: 30px; */
 }
 
 .contact-form input{
@@ -260,11 +260,11 @@ h2{
 
 
 .footer{
-  background-color: #7bbcf8;
+  background-color: #c291be;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding:10px 60px;
+  padding:10px 2.5rem;
   flex-wrap: wrap;
 }
 .footer-details{
@@ -305,8 +305,11 @@ h2{
     bottom: 0;
   }
   .experience-mainTitle{
-    font-size: 1.5rem;
-    padding: 1.3rem 0 1.3rem 0.9rem;
+    /*margin-left: 30px; */
+    margin: 0px;
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    
+    
   }
   h1{
     z-index: 5;
@@ -361,7 +364,40 @@ h2{
   .experience{
     width: 100%;
   }
+  .experience-mainTitle{
+    padding: 1.3rem 0 1.3rem 1.5rem;
+    font-size: 1.5rem;
+  }
 }
+@media screen and (max-width:572px){
+  .contact{
+    justify-content: center;
+    padding: 1.7rem 2.5rem 0.5rem 2.5rem;
+    
+  }
+  .contact-form{
+    text-align: center;
+    /* margin: 0; */
+  }
+  .contact-form button{
+    margin: 1rem auto 1.3rem auto;
+  }
+  .redes-link{
+    margin-bottom: 1rem;
+  }
+  .redes{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer{
+    display: block;
+    text-align: center;
+  }
+  .footer-details{
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width:480px){
   .projects{
     padding: 0px 1.2rem 6px 1.2rem;
@@ -391,6 +427,13 @@ h2{
     padding: 1rem;
     margin: 0 1.5rem 1.3rem 1.5rem;
     margin-top: -1.5rem;
+  }
+  .experience-mainTitle{
+    padding: 1.1rem 0 1.1rem 1.2rem;
+    font-size: 1.4rem;
+  }
+  .contact, .footer{
+    padding: 1rem 1.3rem 0.5rem 1.3rem;
   }
 }
 @media screen and (max-width:320px){
@@ -429,6 +472,16 @@ h2{
   }
   .experience-description{
     font-size: 0.9rem;
+  }
+  .experience-mainTitle{
+    padding: 1.1rem 0 1.1rem 0.9rem;
+    font-size: 1.3rem;
+  }
+  .redes-link.github{
+    margin-left: 0;
+  }
+  .contact, .footer{
+    padding: 1rem 1rem 0.5rem 1rem;
   }
 }
 
