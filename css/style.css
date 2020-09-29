@@ -47,12 +47,12 @@ h1{
   /* font-style: normal; */
   letter-spacing: -.2px;
   text-transform: lowercase;
-  color: white;
+  color: rgb(2, 10, 12);
   margin: 0px;
 }
 .link{
   text-decoration: none;
-  color: white;
+  color:white;
   display: flex;
   height: inherit;
   align-items: center;
@@ -81,7 +81,11 @@ h1{
   height: inherit;
 }
 .main span{
-  color: #d5a632;
+  color: #a3082f;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-style: oblique;
+  text-shadow: 3px -5px 3px rgb(36, 8, 43)
 }
 h2{
   margin: 0px;
@@ -148,13 +152,20 @@ h2{
 .experience-container_image{
   margin: 0px;
   width: 100%;
-  height: 200px;
+  height: 0;
+  padding-top: 56.25%;
+  position: relative;
+  /* height: 200px; */
   /* width: auto; */
 }
 .experience-image{
-  /* width: auto; */
-  width: inherit;
-  height: inherit;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 .experience-down{
@@ -288,14 +299,19 @@ h2{
   flex-wrap: inherit;
 }
 @media screen and (max-width:1024px){
+  /* .wrapper.especial{
+    margin: 0;
+  } */
+  h1{
+    z-index: 5;
+  }
   .main{
-    height: auto;
     position: relative;
     overflow: hidden;
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
   }
   .main figure{
-
+    width: auto;
   }
   .main figure img{
     position: absolute;
@@ -303,17 +319,15 @@ h2{
     left: 0;
     right: 0;
     bottom: 0;
+    width: 100%;
+    height: 100%;
   }
   .experience-mainTitle{
     /*margin-left: 30px; */
     margin: 0px;
-    padding: 1.5rem 0 1.5rem 1.5rem;
-    
-    
+    padding: 1.5rem 0 1.5rem 1.5rem; 
   }
-  h1{
-    z-index: 5;
-  }
+  
   
 } 
 @media screen and (max-width:767px){
@@ -370,6 +384,12 @@ h2{
   }
 }
 @media screen and (max-width:572px){
+  h1{
+    font-size: 1.6rem;
+  }
+  .main{
+    padding: 2.5rem 1rem;
+  }
   .contact{
     justify-content: center;
     padding: 1.7rem 2.5rem 0.5rem 2.5rem;
@@ -399,6 +419,16 @@ h2{
 }
 
 @media screen and (max-width:480px){
+  h1{
+    font-size: 1.4rem;
+    background-color: rgba(238, 130, 238, 0.652);
+  }
+  .main{
+    padding: 2rem 1.2rem;
+  }
+  .main span{
+    text-shadow: unset;
+  }
   .projects{
     padding: 0px 1.2rem 6px 1.2rem;
   }
@@ -437,6 +467,18 @@ h2{
   }
 }
 @media screen and (max-width:320px){
+  h1{
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    margin-top: 3.5rem;
+    background-color: rgba(238, 130, 238, 0.652);
+  }
+  .main{
+    padding: 1rem 0.8rem;
+  }
+  .main span{
+    text-shadow: unset;
+  }
   .project{
     box-shadow: 0px 0px 4px black;
     margin-bottom: 0.9rem;
@@ -484,6 +526,23 @@ h2{
     padding: 1rem 1rem 0.5rem 1rem;
   }
 }
-
+/* .content_video-youtube{
+  width: 100%;
+  height: 0;
+  padding: 56.25%;
+  position: relative;
+} */
+.video_youtube{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.video_youtube:hover{
+  z-index: 8;
+}
 
  
