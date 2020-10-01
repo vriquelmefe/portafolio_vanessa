@@ -9,7 +9,7 @@ body{
 .container_menu-hamburger{
   margin: 0;
   position: fixed;
-  z-index: 15;
+  z-index: 30;
   top: 8px;
   left: 8px;
   display: none;
@@ -352,12 +352,15 @@ h2{
     z-index: 20;
     background-color: rgba(4, 3, 3, 0.816);
     top: 0;
-    left: 0;
+    left: -100vw;
     right: 0;
     bottom: 0;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 2s;
   }
   .header{
     height: auto;
@@ -365,6 +368,11 @@ h2{
   }
   ul{
     display: block;
+    width: 100%;
+    height: auto;
+  }
+  .menu.menu_active{
+    left: 0;
   }
   .link{
     justify-content: center;
